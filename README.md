@@ -1,19 +1,19 @@
 <div align="center">
-    <h3>🔦 3D mapping using a LiDAR scanner (Engineering project)</h3>
-    <a href="https://github.com/theovidal/mapping/releases/latest">Latest release</a> — <a href="./LICENSE">License</a> 
+    <img src="assets/banner.png" width="250px">
+    <h1>LiDAR 3D Cartography (Engineering project)</h1>
+    <h3>An engineering project made for high-school diploma</h3>
+    <a href="docs/en/project-file-en.pdf">🇬🇧 Project file</a> - <a href="docs/fr/dossier-projet-fr.pdf">🇫🇷 Dossier projet</a>
 </div>
 
-## 🌈 How it works
-
-See [project file](./assets/docs/Dossier%20Projet%202021%20-%20CAPITANIO%20Kylian,%20VIDAL%20Théo.docx) (in french).
+This repository contains the project made by Kylian Capitanio and myself (Théo Vidal) for the Engineering Sciences course for high school diploma. The aim was to perform a 3D scan of a room using a LiDAR scanner and a custom 3D-printed platform, transmitting data by remote communication and previewing the result using a custom-made program. We applied an engineering approach for this problem, by defining the needs and specifications, dividing up tasks, developing the solution and testing it in real conditions.
 
 ## 💻 Development
 
 Clone the repository from GitHub on your local machine : (this requires Git to be installed)
 
 ```bash
-git clone https://github.com/highest-app/template.git  # Using HTTP
-git clone git@github.com:highest-app/template          # Using SSH
+git clone https://github.com/theovidal/3d-cartography-platform.git  # Using HTTP
+git clone git@github.com:theovidal/3d-cartography-platform          # Using SSH
 ```
 
 Install the required dependencies using your favorite package manager :
@@ -56,5 +56,5 @@ To upload the [hardware script](./hardware/hardware.ino) on your card, open it i
 
 ## 📜 Credits
 
-- Built by [Théo VIDAL](https://github.com/theovidal) and Kylian CAPITANIO
+- Built by [Théo Vidal](https://github.com/theovidal) and Kylian Capitanio
 - Made in Lycée Polyvalent J.-M. Carriat, 01000 Bourg-en-Bresse, France
